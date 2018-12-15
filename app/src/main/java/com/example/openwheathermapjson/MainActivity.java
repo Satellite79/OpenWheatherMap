@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // spinAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);  1 adapter version
         spinner.setAdapter(spinAdapter);
         spinner.setOnItemSelectedListener(this);
+
+        testFunc();
     }
 
     private Cursor getCityCursor() {
@@ -322,4 +324,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
     }
     */
+
+    private void testFunc(){
+        Toast.makeText(this,
+                "testText",
+                Toast.LENGTH_SHORT).show();
+    }
 }

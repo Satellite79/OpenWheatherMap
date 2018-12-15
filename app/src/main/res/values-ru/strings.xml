@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="temperature">температура</string>
+    <string name="wind">ветер</string>
+    <string name="clouds">облачность</string>
+    <string name="pressure">давление</string>
+    <string name="coords">Гео координаты</string>
+    <string name="requestFailureText">"Во время выполнения запроса возникла ошибка: "</string>
+    <string name="windUnit">м/с</string>
+    <string name="pressUnit">гПа</string>
+    <string name="searchView">используя SearchView</string>
+    <string name="forecast">Прогноз на 5 дней</string>
+    <string name="snow">снег %1$s</string>
+    <string name="rain">дождь %1$s</string>
+    <string name="noPrecipitation">без осадков</string>
+    <string name="forecastStr">%1$s %2$s, ветер %3$s %4$s, обл-сть %5$s %6$s,\n давление %7$s %8$s, %9$s"</string>
+    <string name="getCities">Скачать города</string>
+
+</resources>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 707860,
+    "name": "Hurzuf",
+    "country": "UA",
+    "coord": {
+      "lon": 34.283333,
+      "lat": 44.549999
+    }
+  },
+  {
+    "id": 519188,
+    "name": "Novinki",
+    "country": "RU",
+    "coord": {
+      "lon": 37.666668,
+      "lat": 55.683334
+    }
+  },  
+  {
+    "id": 708546,
+    "name": "Holubynka",
+    "country": "UA",
+    "coord": {
+      "lon": 33.900002,
+      "lat": 44.599998
+    }
+  },
+{
+    "id": 536203,
+    "name": "Sankt-Peterburg",
+    "country": "RU",
+    "coord": {
+      "lon": 30.25,
+      "lat": 59.916668
+    }
+  },
+{
+    "id": 5601538,
+    "name": "Moscow",
+    "country": "US",
+    "coord": {
+      "lon": -117.000168,
+      "lat": 46.732391
+    }
+  },
+{
+    "id": 524901,
+    "name": "Moscow",
+    "country": "RU",
+    "coord": {
+      "lon": 37.615555,
+      "lat": 55.75222
+    }
+  },
+{
+    "id": 472045,
+    "name": "Voronezh",
+    "country": "RU",
+    "coord": {
+      "lon": 39.169998,
+      "lat": 51.666389
+    }
+  },
+{
+    "id": 2267827,
+    "name": "Funchal",
+    "country": "PT",
+    "coord": {
+      "lon": -16.9,
+      "lat": 32.633331
+    }
+  },
+{
+    "id": 6356055,
+    "name": "Barcelona",
+    "country": "ES",
+    "coord": {
+      "lon": 2.12804,
+      "lat": 41.399422
+    }
+  },
+{
+    "id": 5128638,
+    "name": "New York",
+    "country": "US",
+    "coord": {
+      "lon": -75.499901,
+      "lat": 43.000351
+    }
+  }
+]

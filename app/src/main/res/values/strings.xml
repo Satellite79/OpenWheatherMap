@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="temperature">temperature</string>
+    <string name="wind">wind</string>
+    <string name="clouds">clouds</string>
+    <string name="pressure">pressure</string>
+    <string name="coords">Geo coords</string>
+    <string name="requestFailureText">"An error occurred while executing the request: "</string>
+    <string name="windUnit">m/с</string>
+    <string name="tempUnit" translatable="false">°C</string>
+    <string name="pressUnit">hPa</string>
+    <string name="percent" translatable="false">%</string>
+    <string name ="cityCountry" translatable="false">%1$s, %2$s</string>
+    <string name ="valueUnit" translatable="false">%1$s %2$s</string>
+    <string name="coordStr" translatable="false">[%1$s, %2$s]</string>
+    <string name="searchView">using SearchView</string>
+    <string name="forecast">Forecast for 5 days</string>
+    <string name="snow">snow %1$s</string>
+    <string name="rain">rain %1$s</string>
+    <string name="precipitation" translatable="false">%1$s, %2$s</string>
+    <string name="noPrecipitation">no precipitation</string>
+    <string name="forecastStr">%1$s %2$s, wind %3$s %4$s, clouds %5$s %6$s,\n pressure %7$s %8$s, %9$s"</string>
+    <string name="getCities">Download cities</string>
+</resources>

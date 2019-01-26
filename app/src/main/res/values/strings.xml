@@ -20,5 +20,8 @@
     <string name="precipitation" translatable="false">%1$s, %2$s</string>
     <string name="noPrecipitation">no precipitation</string>
     <string name="forecastStr">%1$s %2$s, wind %3$s %4$s, clouds %5$s %6$s,\n pressure %7$s %8$s, %9$s"</string>
-    <string name="getCities">Download cities</string>
+    <string name="getCities">Download cities(a few)</string>
+    <string name="setAlarm">Set alarm</string>
+    <string name="contentText">Do not forget to take an umbrella!</string>
+    <string name="contentTitle">The forecast promises rain</string>
 </resources>

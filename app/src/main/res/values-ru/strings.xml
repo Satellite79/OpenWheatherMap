@@ -15,6 +15,9 @@
     <string name="rain">дождь %1$s</string>
     <string name="noPrecipitation">без осадков</string>
     <string name="forecastStr">%1$s %2$s, ветер %3$s %4$s, обл-сть %5$s %6$s,\n давление %7$s %8$s, %9$s"</string>
-    <string name="getCities">Скачать города</string>
+    <string name="getCities">Скачать города( несколько)</string>
+    <string name="setAlarm">Установить сигнализацию</string>
+    <string name="contentText">Не забудьте взять зонтик!</string>
+    <string name="contentTitle">По прогнозу обещают дождь</string>
 
 </resources>

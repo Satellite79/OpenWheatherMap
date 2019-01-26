@@ -1,5 +1,10 @@
 package com.example.openwheathermapjson;
 
+import android.app.AlarmManager;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -30,6 +35,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Calendar;
+import java.util.Date;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -45,6 +52,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public static final String CITY_PARM = "CITY_PARM";
     public static final String POS_PARM = "POS_PARM";
     public static final String JSON_PATH = "";  //предполагался url
+    public static final String DEFAULT_CITY = "Moscow";
+    public static final String DEFAULT_COUNTRY = "RU";
 
     private SQLiteStatement statement;
 
@@ -72,10 +81,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     CitiesDBHelper dbHelper;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
+
         setContentView(R.layout.activity_main);
 
         cityName = findViewById(R.id.city_name_view);
@@ -117,9 +128,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // spinAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);  1 adapter version
         spinner.setAdapter(spinAdapter);
         spinner.setOnItemSelectedListener(this);
-
-        testFunc();
     }
+
 
     private Cursor getCityCursor() {
         return dbHelper.getReadableDatabase()
@@ -212,7 +222,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case R.id.getCities_button:
                 try {
                      getCities();
-                     // new ParseTask().execute();  пример получения json с внешнего источника
+                     // new ParseTask().execute();  пример получения json с внешнего источника (из инета)
                 }
                 catch (Exception e){
                     Toast.makeText(this,
@@ -325,9 +335,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
     */
 
-    private void testFunc(){
-        Toast.makeText(this,
-                "testText",
-                Toast.LENGTH_SHORT).show();
+    public void setAlarm(View view) {
+        WeatherBootReceiver.setAlarm(this);
     }
 }
